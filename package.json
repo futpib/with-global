@@ -1,6 +1,6 @@
 {
   "name": "with-global",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run code with polluted global namespace, then clean up",
   "main": "./src/index.js",
   "browser": "./dist/index.js",
