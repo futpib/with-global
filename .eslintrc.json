@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "valid-jsdoc": "error",
+    "comma-dangle": ["error", "only-multiline"]
+  }
+}
+
