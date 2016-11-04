@@ -18,6 +18,10 @@
     "email": "futpib@gmail.com"
   },
   "license": "GPL-3.0+ OR MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/futpib/with-global.git"
+  },
   "dependencies": {
     "lodash.foreach": "^4.5.0",
     "lodash.mapvalues": "^4.6.0",
