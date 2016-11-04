@@ -1,5 +1,7 @@
 /* eslint-env mocha */
 
+const window = require('window-or-global');
+
 const chai = require('chai');
 const spies = require('chai-spies');
 
@@ -7,7 +9,7 @@ chai.use(spies);
 
 const { expect, spy } = chai;
 
-const withGlobal = require('with-global');
+const withGlobal = require('../');
 
 describe('withGlobal', () => {
   const library_ = {};

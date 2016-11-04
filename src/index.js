@@ -1,6 +1,9 @@
 
+const window = require('window-or-global');
+
 const mapValues = require('lodash.mapvalues');
 const forEach = require('lodash.foreach');
+
 
 /**
  * Run callback with given global variables, then clean up global namespace
