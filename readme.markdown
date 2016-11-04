@@ -6,6 +6,14 @@ without permanent pollution of the global namespace.
 
 Useful with browserify/webpack.
 
+## Install
+
+With [npm](https://www.npmjs.com/) do:
+
+```
+npm install with-global
+```
+
 ## Example
 
 Say you have an old jquery plugin that never heard of UMD
