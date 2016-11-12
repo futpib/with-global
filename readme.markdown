@@ -1,6 +1,8 @@
 
 # with-global
 
+[![Build Status](https://travis-ci.org/futpib/with-global.svg?branch=master)](https://travis-ci.org/futpib/with-global)
+
 Run code that depends on presence of a global variable
 without permanent pollution of the global namespace.
 
